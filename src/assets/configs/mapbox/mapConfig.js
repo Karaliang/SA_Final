@@ -2,16 +2,16 @@
 export const MapObjectConfig = {
 	antialias: true,
 	container: "mapboxBox",
-	center: [121.536609, 25.044808],
+	center: [121.30099325931337, 24.993028500784582],
 	maxBounds: [
-		[121.3870596781498, 24.95733863075891], // Southwest coordinates
-		[121.6998231749096, 25.21179993640203], // Northeast coordinates
+	 [120.87806345306109, 24.57528011803145], // Southwest coordinates
+	 [121.51292552403993, 25.166198765679653], // Northeast coordinates
 	],
 	zoom: 12.5,
 	minZoom: 11,
 	maxZoom: 22,
 	projection: "globe", // display the map as a 3D globe
-};
+   };
 
 // Styles for base layer "Taipei Town"
 export const TaipeiTown = {
@@ -75,7 +75,7 @@ export const TaipeiVillage = {
 export const TaipeiBuilding = {
 	id: "taipei_building_3d",
 	source: "taipei_building_3d_source",
-	"source-layer": "tp_building_height84-18p8j0",
+	"source-layer": "tp_building_height84-6u3y5a",
 	type: "fill-extrusion",
 	minzoom: 14,
 	paint: {
