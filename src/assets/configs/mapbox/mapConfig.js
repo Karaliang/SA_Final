@@ -1,17 +1,17 @@
 // Initial Position and Settings
 export const MapObjectConfig = {
-	antialias: true,
-	container: "mapboxBox",
-	center: [121.30099325931337, 24.993028500784582],
-	maxBounds: [
-	 [120.87806345306109, 24.57528011803145], // Southwest coordinates
-	 [121.51292552403993, 25.166198765679653], // Northeast coordinates
-	],
-	zoom: 12.5,
-	minZoom: 11,
-	maxZoom: 22,
-	projection: "globe", // display the map as a 3D globe
-   };
+    antialias: true,
+    container: "mapboxBox",
+    center: [121.30099325931337, 24.993028500784582],
+    maxBounds: [
+        [120.87806345306109, 24.57528011803145], // Southwest coordinates
+        [121.51292552403993, 25.166198765679653], // Northeast coordinates
+    ],
+    zoom: 12.5,
+    minZoom: 11,
+    maxZoom: 22,
+    projection: "globe", // display the map as a 3D globe
+};
 
 // Styles for base layer "Taipei Town"
 export const TaipeiTown = {
