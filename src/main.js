@@ -34,7 +34,7 @@ import TimelineStackedChart from "./components/charts/TimelineStackedChart.vue";
 import MapLegend from "./components/charts/MapLegend.vue";
 import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
-import TaoyuanChart from "./components/charts/TaoyuanChart.vue"
+import TaoyuanChart from "./components/charts/TaoyuanChart.vue";
 
 const app = createApp(App);
 
@@ -57,5 +57,7 @@ app.component("TimelineStackedChart", TimelineStackedChart);
 app.component("MapLegend", MapLegend);
 app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
+app.component("TaoyuanChart", TaoyuanChart);
 
 app.mount("#app");
+

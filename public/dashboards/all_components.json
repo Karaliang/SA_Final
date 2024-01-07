@@ -4217,6 +4217,7 @@
 			],
 			"chart_config": {
 				"types": ["TaoyuanChart", "ColumnChart"],
+
 				"color": ["#A25FAD"],
 				"unit": "台",
 				"map_filter": [
@@ -4253,6 +4254,5 @@
 			"tags": [],
 			"contributors": ["tuic"]
 		}
-
 	}
 }
