@@ -4190,7 +4190,7 @@
 		},
 		"300": {
 			"id": 300,
-			"index": "桃",
+			"index": "111區域發生車禍數量",
 			"map_config": [
 				{
 					"index": "heal_aed",
@@ -4218,7 +4218,7 @@
 			"chart_config": {
 				"types": ["TaoyuanChart", "ColumnChart"],
 
-				"color": ["#A25FAD"],
+				"color": ["#FFE677"],
 				"unit": "台",
 				"map_filter": [
 					"dist",
@@ -4250,6 +4250,72 @@
 			"use_case": "透過台北市衛生局公開資料，我們能了解當前AED設置地點分布情況，提供在緊急時尋找AED進行急救的便利。",
 			"links": [
 				"https://data.taipei/dataset/detail?id=cd050577-115f-4299-b37a-012ff490a632"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},		
+		"320": {
+			"id": 320,
+			"index": "traffic_accident",
+			"map_config": [
+				{
+					"heatmap": {
+						"filter": "type",
+						"zoom": 16.5
+					},
+					"index": "traffic_accident_location_view",
+					"paint": {
+						"circle-color": [
+							"match",
+							["get", "type"],
+							"1",
+							"#CA0020",
+							"2",
+							"#ff996d",
+							"3",
+							"#f8c3ac",
+							"#ccc"
+						]
+					},
+					"property": [
+						{
+							"key": "location",
+							"name": "位置"
+						},
+						{
+							"key": "type",
+							"name": "處理別"
+						},
+						{
+							"key": "occur_time",
+							"name": "時間"
+						}
+					],
+					"type": "circle",
+					"size": null,
+					"icon": "heatmap",
+					"title": "交通事故統計"
+				}
+			],
+			"chart_config": {
+				"color": ["#CA0020", "#ff996d", "#f8c3ac"],
+				"types": ["DonutChart", "BarChart"],
+				"unit": "件",
+				"map_filter": ["type", ["1", "2", "3"]]
+			},
+			"history_data": true,
+			"source": "警察局",
+			"time_from": "2023-01-31T14:01:00Z",
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"name": "110年肇事逃逸",
+			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
+			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
+			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
+				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
 			],
 			"tags": [],
 			"contributors": ["tuic"]

@@ -866,6 +866,7 @@ z"/>
 	max-height: 100%;
 	position: relative;
 	overflow-y: scroll;
+	
 
 	&-title {
 		display: flex;
@@ -895,6 +896,7 @@ z"/>
 				width: 3rem;
 				margin: 0 4px;
 				border-radius: 5px;
+				border: 1px white;
 			}
 
 			div:before {
@@ -916,9 +918,13 @@ z"/>
 	&-chart {
 		display: flex;
 		justify-content: center;
+		
+		
 
 		svg {
 			width: 65%;
+			
+			
 
 			path {
 				transition: transform 0.2s;
@@ -929,6 +935,8 @@ z"/>
 		&-info {
 			position: fixed;
 			z-index: 20;
+			
+
 		}
 	}
 
