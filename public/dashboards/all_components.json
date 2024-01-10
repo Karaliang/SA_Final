@@ -5139,9 +5139,10 @@
 			],
 			"chart_config": {
 				"color": [
-					"#CA0020",
-					"#ff996d",
-					"#f8c3ac"
+					"#c77dff",
+					"#3a0ca3"
+					
+					
 				],
 				"types": [
 					"DonutChart",
@@ -5224,9 +5225,8 @@
 			],
 			"chart_config": {
 				"color": [
-					"#CA0020",
-					"#ff996d",
-					"#f8c3ac"
+					"#c77dff",
+					"#3a0ca3"
 				],
 				"types": [
 					"DonutChart",
