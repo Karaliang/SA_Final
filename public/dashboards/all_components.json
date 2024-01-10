@@ -6416,7 +6416,34 @@
 				
 			},
 			
-			"name": "死亡率",
+			"name": "110肇事原因",
+			"source": "衛生局",
+			"history_data": true,
+			"history_data_color": ["#C8D3D5", "#A4B8C4", "#6E8387"],
+			"time_from": "1971-01-01",
+			"time_to": "2021-12-31" ,
+			"update_freq": "1",
+			"update_freq_unit": "year",
+			"short_desc": "顯示臺北市新生兒、嬰兒及孕產婦死亡率的統計資訊",
+			"long_desc": "顯示臺北市新生兒、嬰兒及孕產婦死亡率的統計資訊，資料來源為衛生局資料。",
+			"use_case": "瞭解臺北市新生兒、嬰兒及孕產婦死亡率的統計資訊，讓大家看得出來新生兒、嬰兒的死亡率是不斷在下降的(可見台灣醫療在進步)、產婦的死亡率會有各種原因而導致數據起起伏伏。",
+			"links": null,
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"303": {
+			"id": 303,
+			"index": "dead",
+			"map_config": null,
+			"chart_config": {
+				"color": ["lightskyblue"],
+				"types": ["BasicChart"],
+				"unit": "件"
+
+				
+			},
+			
+			"name": "111肇事原因",
 			"source": "衛生局",
 			"history_data": true,
 			"history_data_color": ["#C8D3D5", "#A4B8C4", "#6E8387"],
