@@ -5051,7 +5051,7 @@
 					]
 				]
 			},
-			"name": "111區域發生車禍數量",
+			"name": "111年區域發生車禍數量",
 			"source": "交通局",
 			"time_from": null,
 			"time_to": null,
@@ -5499,7 +5499,7 @@
 				"color": [
 					"#FFE677"
 				],
-				"unit": "台",
+				"unit": "件",
 				"map_filter": [
 					"dist",
 					[
@@ -5519,7 +5519,7 @@
 					]
 				]
 			},
-			"name": "110區域發生車禍數量",
+			"name": "110年區域發生車禍數量",
 			"source": "警察局",
 			"time_from": null,
 			"time_to": null,
