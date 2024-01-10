@@ -27,24 +27,25 @@ const chartOptions = ref({
           width: 2,
           colors: ['transparent']
         },
+		tooltip: {
+          y: {
+            formatter: function (val) {
+              return "$ " + val + " thousands"
+            },
+          },
+        },
 		xaxis: {
           categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
         },
 		yaxis: {
           title: {
             text: '$ (thousands)'
-          }
+          },
         },
 		fill: {
           opacity: 1
         },
-		tooltip: {
-          y: {
-            formatter: function (val) {
-              return "$ " + val + " thousands"
-            }
-          }
-        }
+
 
 
 });

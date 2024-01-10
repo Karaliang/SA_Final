@@ -5054,7 +5054,7 @@
 				"color": [
 					"#FFE677"
 				],
-				"unit": "台",
+				"unit": "件",
 				"map_filter": [
 					"dist",
 					[
@@ -5075,13 +5075,13 @@
 				]
 			},
 			"name": "111區域發生車禍數量",
-			"source": "衛生局",
+			"source": "交通局",
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示當前AED設置地點",
-			"long_desc": "顯示當前AED設置地點，資料來源為台北市衛生局公開資料，每月更新。",
+			"short_desc": "顯示111區域發生車禍數量",
+			"long_desc": "顯示111區域發生車禍數量，資料來源為台北市衛生局公開資料，每月更新。",
 			"use_case": "透過台北市衛生局公開資料，我們能了解當前AED設置地點分布情況，提供在緊急時尋找AED進行急救的便利。",
 			"links": [
 				"https://data.taipei/dataset/detail?id=cd050577-115f-4299-b37a-012ff490a632"
@@ -6428,6 +6428,56 @@
 			"links": null,
 			"tags": [],
 			"contributors": ["tuic"]
-		}	
+		},
+		"304": {
+			"id": 304,
+			"index": "patrol_criminalcase",
+			"history_data": false,
+			"map_config": null,
+			"chart_config": {
+				"color": ["#E06666", "#00A9E0"],
+				"types": ["ColumnLineChart", "TimelineSeparateChart"],
+				"unit": "件"
+			},
+			"name": "110",
+			"source": "警察局",
+			"time_from": "2023-01-01T23:59:59+08:00",
+			"time_to": "2023-05-01T23:59:59+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "month",
+			"short_desc": "顯示近兩年每月的刑案統計資訊",
+			"long_desc": "顯示近兩年每月的刑案統計資訊，資料來源為台北市主計處開放資料，每月更新。",
+			"use_case": "藉由掌握台北市刑事案件近2年的統計資訊，我們可以瞭解案件的增減趨勢及相關特徵，有助於制定更有效的治安策略。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=dc7e246a-a88e-42f8-8cd6-9739209af774"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"305": {
+			"id": 305,
+			"index": "patrol_criminalcase",
+			"history_data": false,
+			"map_config": null,
+			"chart_config": {
+				"color": ["#E06666", "#00A9E0"],
+				"types": ["ColumnLineChart", "TimelineSeparateChart"],
+				"unit": "件"
+			},
+			"name": "110",
+			"source": "警察局",
+			"time_from": "2023-01-01T23:59:59+08:00",
+			"time_to": "2023-05-01T23:59:59+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "month",
+			"short_desc": "顯示近兩年每月的刑案統計資訊",
+			"long_desc": "顯示近兩年每月的刑案統計資訊，資料來源為台北市主計處開放資料，每月更新。",
+			"use_case": "藉由掌握台北市刑事案件近2年的統計資訊，我們可以瞭解案件的增減趨勢及相關特徵，有助於制定更有效的治安策略。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=dc7e246a-a88e-42f8-8cd6-9739209af774"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		}		
 	}
 }
