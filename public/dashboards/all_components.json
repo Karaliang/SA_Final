@@ -5021,31 +5021,8 @@
 		},
 		"300": {
 			"id": 300,
-			"index": "111區域發生車禍數量",
-			"map_config": [
-				{
-					"index": "heal_aed",
-					"paint": {
-						"circle-color": "#A25FAD"
-					},
-					"property": [
-						{
-							"key": "name",
-							"name": "地點"
-						},
-						{
-							"key": "dist",
-							"name": "行政區"
-						},
-						{
-							"key": "addr",
-							"name": "地址"
-						}
-					],
-					"type": "circle",
-					"title": "AED分布"
-				}
-			],
+			"index": "testing",
+		
 			"chart_config": {
 				"types": [
 					"TaoyuanChart",
@@ -5054,7 +5031,7 @@
 				"color": [
 					"#FFE677"
 				],
-				"unit": "台",
+				"unit": "件",
 				"map_filter": [
 					"dist",
 					[
@@ -5074,17 +5051,17 @@
 					]
 				]
 			},
-			"name": "桃",
-			"source": "衛生局",
+			"name": "111年區域發生車禍數量",
+			"source": "交通局",
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示當前AED設置地點",
-			"long_desc": "顯示當前AED設置地點，資料來源為台北市衛生局公開資料，每月更新。",
-			"use_case": "透過台北市衛生局公開資料，我們能了解當前AED設置地點分布情況，提供在緊急時尋找AED進行急救的便利。",
+			"short_desc": "顯示111區域發生車禍數量",
+			"long_desc": "顯示111區域發生車禍數量，資料來源為道安資訊查詢網公開資料。",
+			"use_case": "透過道安資訊查詢網公開資料，我們能了解111區域發生車禍數量情況，知道每個區域發生車禍數量，加強交通管制。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=cd050577-115f-4299-b37a-012ff490a632"
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
 			],
 			"tags": [],
 			"contributors": [
@@ -5093,55 +5070,14 @@
 		},
 		"320": {
 			"id": 320,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+
 			"chart_config": {
 				"color": [
-					"#CA0020",
-					"#ff996d",
-					"#f8c3ac"
+					"#c77dff",
+					"#3a0ca3"
+					
+					
 				],
 				"types": [
 					"DonutChart",
@@ -5157,19 +5093,18 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
-			"time_from": "2023-01-31T14:01:00Z",
-			"time_to": null,
+			"time_from": "2021-01-01",
+			"time_to": "2021-12-31" ,
 			"update_freq": null,
 			"update_freq_unit": null,
 			"name": "110年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"short_desc": "顯示110的交通事是否肇事逃逸的統計圓餅圖",
+			"long_desc": "顯示110的交通事是否肇事逃逸的統計圓餅圖，資料來源為道安資訊查詢網，每日更新。",
+			"use_case": "透過110的交通事是否肇事逃逸的統計圓餅圖的呈現，了解肇事逃逸的人數。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
-				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
+
 			],
 			"tags": [],
 			"contributors": [
@@ -5178,55 +5113,12 @@
 		},
 		"321": {
 			"id": 321,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+			
 			"chart_config": {
 				"color": [
-					"#CA0020",
-					"#ff996d",
-					"#f8c3ac"
+					"#c77dff",
+					"#3a0ca3"
 				],
 				"types": [
 					"DonutChart",
@@ -5242,19 +5134,17 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
-			"time_from": "2023-01-31T14:01:00Z",
-			"time_to": null,
+			"time_from": "2022-01-01",
+			"time_to": "2022-12-31" ,
 			"update_freq": null,
 			"update_freq_unit": null,
 			"name": "111年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"short_desc": "顯示111的交通事是否肇事逃逸的統計圓餅圖",
+			"long_desc": "顯示111的交通事是否肇事逃逸的統計圓餅圖，資料來源為道安資訊查詢網，每日更新。",
+			"use_case": "透過111的交通事是否肇事逃逸的統計圓餅圖的呈現，了解肇事逃逸的人數。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
-				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
 			],
 			"tags": [],
 			"contributors": [
@@ -5263,50 +5153,8 @@
 		},
 		"322": {
 			"id": 322,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+
 			"chart_config": {
 				"color": [
 					"#CA0020",
@@ -5327,7 +5175,6 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
 			"time_from": "2023-01-31T14:01:00Z",
 			"time_to": null,
@@ -5348,50 +5195,8 @@
 		},
 		"323": {
 			"id": 323,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+
 			"chart_config": {
 				"color": [
 					"#CA0020",
@@ -5412,7 +5217,6 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
 			"time_from": "2023-01-31T14:01:00Z",
 			"time_to": null,
@@ -5433,50 +5237,8 @@
 		},
 		"324": {
 			"id": 324,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+
 			"chart_config": {
 				"color": [
 					"#1E90FF",
@@ -5497,7 +5259,6 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
 			"time_from": "2023-01-31T14:01:00Z",
 			"time_to": null,
@@ -5518,50 +5279,8 @@
 		},
 		"325": {
 			"id": 325,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+
 			"chart_config": {
 				"color": [
 					"#1E90FF",
@@ -5582,7 +5301,6 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
 			"time_from": "2023-01-31T14:01:00Z",
 			"time_to": null,
@@ -5603,50 +5321,8 @@
 		},
 		"326": {
 			"id": 326,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+
 			"chart_config": {
 				"color": [
 					"#6B8E23",
@@ -5667,7 +5343,6 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
 			"time_from": "2023-01-31T14:01:00Z",
 			"time_to": null,
@@ -5688,50 +5363,8 @@
 		},
 		"327": {
 			"id": 327,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+
 			"chart_config": {
 				"color": [
 					"#6B8E23",
@@ -5752,7 +5385,6 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
 			"time_from": "2023-01-31T14:01:00Z",
 			"time_to": null,
@@ -5773,50 +5405,8 @@
 		},
 		"328": {
 			"id": 328,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+
 			"chart_config": {
 				"color": [
 					"#FFA500",
@@ -5837,7 +5427,6 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
 			"time_from": "2023-01-31T14:01:00Z",
 			"time_to": null,
@@ -5857,50 +5446,8 @@
 		},
 		"329": {
 			"id": 329,
-			"index": "traffic_accident",
-			"map_config": [
-				{
-					"heatmap": {
-						"filter": "type",
-						"zoom": 16.5
-					},
-					"index": "traffic_accident_location_view",
-					"paint": {
-						"circle-color": [
-							"match",
-							[
-								"get",
-								"type"
-							],
-							"1",
-							"#CA0020",
-							"2",
-							"#ff996d",
-							"3",
-							"#f8c3ac",
-							"#ccc"
-						]
-					},
-					"property": [
-						{
-							"key": "location",
-							"name": "位置"
-						},
-						{
-							"key": "type",
-							"name": "處理別"
-						},
-						{
-							"key": "occur_time",
-							"name": "時間"
-						}
-					],
-					"type": "circle",
-					"size": null,
-					"icon": "heatmap",
-					"title": "交通事故統計"
-				}
-			],
+			"index": "testing",
+
 			"chart_config": {
 				"color": [
 					"#FFA500",
@@ -5921,7 +5468,6 @@
 					]
 				]
 			},
-			"history_data": true,
 			"source": "警察局",
 			"time_from": "2023-01-31T14:01:00Z",
 			"time_to": null,
@@ -5938,6 +5484,580 @@
 			"contributors": [
 				"tuic"
 			]
-		}
+		},		
+		"301": {
+			"id": 301,
+			"index": "testing",
+			
+			"chart_config": {
+				"types": [
+					"TaoyuanChart",
+					"ColumnChart"
+				],
+				"color": [
+					"#FFE677"
+				],
+				"unit": "件",
+				"map_filter": [
+					"dist",
+					[
+						"中壢區",
+						"桃園區",
+						"龜山區",
+						"八德區",
+						"平鎮區",
+						"蘆竹區",
+						"楊梅區",
+						"龍潭區",
+						"大溪區",
+						"大園區",
+						"觀音區",
+						"新屋區",
+						"復興區"
+					]
+				]
+			},
+			"name": "110年區域發生車禍數量",
+			"source": "警察局",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示110區域發生車禍數量",
+			"long_desc": "顯示110區域發生車禍數量，資料來源為道安資訊查詢網公開資料。",
+			"use_case": "透過道安資訊查詢網公開資料，我們能了解110區域發生車禍數量情況，知道每個區域發生車禍數量，加強交通管制。",
+			"links": [
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		},
+		"400": {
+			"id": 400,
+			"index": "400",
+			"map_config": [
+				{
+				  "index": "400",
+				  "paint":{
+					"line-color": "#009688"
+				},
+				  "property": [
+					{
+					  "key": "RoadName",
+					  "name": "路名"
+					},
+					{
+					  "key": "volume",
+					  "name": "車流量"
+					}
+				  ],
+				  "type": "line",
+				  "icon": "dash",
+				  "title": "街道"
+				}
+			  ],
+			  "name": "30以下車流量路段",
+			  "chart_config": {
+				"types": ["MapLegend"],
+				"map_filter": ["RoadName"]
+			  },
+			 
+			  "time_from": null,
+			  "time_to": null,
+			  "update_freq": null,
+			  "update_freq_unit": null,
+	
+			  "source": "交通局",
+			  "contributors": ["tuic"]
+			},
+			"401": {
+				"id": 401,
+				"index": "3060",
+				"map_config": [
+					{
+					  "index": "3060",
+					  "paint":{
+						"line-color": "#E2FA0F"
+					},
+					  "property": [
+						{
+						  "key": "RoadName",
+						  "name": "路名"
+						},
+						{
+						  "key": "volume",
+						  "name": "車流量"
+						}
+					  ],
+					  "type": "line",
+					  "icon": "dash",
+					  "title": "街道"
+					}
+				  ],
+				  "name": "30至60車流量路段",
+				  "chart_config": {
+					"types": ["MapLegend"],
+					"map_filter": ["RoadName"]
+				  },
+				 
+				  "time_from": null,
+				  "time_to": null,
+				  "update_freq": null,
+				  "update_freq_unit": null,
+		
+				  "source": "交通局",
+				  "contributors": ["tuic"]
+				},
+
+			"402": {
+				"id": 402,
+				"index": "60",
+				"map_config": [
+					{
+					  "index": "60",
+					  "paint":{
+						"line-color": "#FA0F0F"
+					},
+					  "property": [
+						{
+						  "key": "RoadName",
+						  "name": "路名"
+						},
+						{
+						  "key": "volume",
+						  "name": "車流量"
+						}
+					  ],
+					  "type": "line",
+					  "icon": "dash",
+					  "title": "街道"
+					}
+				  ],
+				  "name": "60以上車流量路段",
+				  "chart_config": {
+					"types": ["MapLegend"],
+					"map_filter": ["RoadName"]
+				  },
+				 
+				  "time_from": null,
+				  "time_to": null,
+				  "update_freq": null,
+				  "update_freq_unit": null,
+		
+				  "source": "交通局",
+				  "contributors": ["tuic"]
+				},
+			"403": {
+				"id": 403,
+				"index": "SpeedCamera",
+				"map_config": [
+					{
+						"index": "SpeedCamera",
+						"paint": {
+							"circle-color": "#A800B8"
+						},
+						"property": [
+							{
+								"key": "Bianhao",
+								"name": "編號"
+							},
+							{
+								"key": "address",
+								"name": "地址"
+							},
+							{
+								"key": "camera_direction",
+								"name": "相機方向"
+							}
+						],
+						"type": "circle",
+						"title": "測速照相分布區域"
+					}
+				],
+				"chart_config": {
+					"types": [
+					],
+					"color": [
+						"#FFE677"
+					],
+					"unit": "台",
+					"map_filter": ["camera_direction"]
+				},
+				"name": "測速照相分布區域",
+				"source": "警察局",
+				"time_from": null,
+				"time_to": null,
+				"update_freq": null,
+				"update_freq_unit": null,
+				"tags": [],
+				"contributors": [
+					"tuic"
+				]
+			},
+			"404": {
+				"id": 404,
+				"index": "monitor",
+				"map_config": [
+					{
+						"index": "monitor",
+						"paint": {
+							"circle-color": "#C9D6DE"
+						},
+						"property": [
+							{
+								"key": "camera_type",
+								"name": "建置方式"
+							},
+							{
+								"key": "breau",
+								"name": "管轄分局"
+							},
+							{
+								"key": "address",
+								"name": "建置地址"
+							}
+						],
+						"type": "circle",
+						"title": "路口監視器地點"
+					}
+				],
+				"chart_config": {
+					"types": [
+					],
+					"color": [
+						"#FFE677"
+					],
+					"unit": "台",
+					"map_filter": ["camera_type",["自建","租賃"]]
+				},
+				"name": "監視器分布區域",
+				"source": "警察局",
+				"time_from": null,
+				"time_to": null,
+				"update_freq": null,
+				"update_freq_unit": null,
+				"tags": [],
+				"contributors": [
+					"tuic"
+				]
+			},
+			"405": {
+				"id": 405,
+				"index": "110Hotspots",
+				"map_config": [
+					{
+						"index": "110Hotspots",
+						"paint": {
+							"circle-color": "#B88F9A"
+						},
+						"property": [
+							{
+								"key": "number",
+								"name": "編號"
+							},
+							{
+								"key": "address",
+								"name": "地點"
+							},
+							{
+								"key": "dead",
+								"name": "死亡數量"
+							},
+							{
+								"key": "injuried",
+								"name": "受傷數量"
+							},
+							{
+								"key": "pieces",
+								"name": "件數"
+							}
+						],
+						"type": "circle",
+						"title": "110肇事熱點"
+					}
+				],
+				"chart_config": {
+					"types": [
+					],
+					"color": [
+						"#FFE677"
+					],
+					"unit": null,
+					"map_filter": ["number"]
+				},
+				"name": "110肇事熱點",
+				"source": "交通部路政及道安司",
+				"time_from": null,
+				"time_to": null,
+				"update_freq": null,
+				"update_freq_unit": null,
+				"tags": [],
+				"contributors": ["tuic"]
+			},
+
+			"406": {
+				"id": 406,
+				"index": "111Hotspots",
+				"map_config": [
+					{
+						"index": "111Hotspots",
+						"paint": {
+							"circle-color": "#E6AF23"
+						},
+						"property": [
+							{
+								"key": "number",
+								"name": "編號"
+							},
+							{
+								"key": "address",
+								"name": "地點"
+							},
+							{
+								"key": "dead",
+								"name": "死亡數量"
+							},
+							{
+								"key": "injuried",
+								"name": "受傷數量"
+							},
+							{
+								"key": "pieces",
+								"name": "件數"
+							}
+						],
+						"type": "circle",
+						"title": "111肇事熱點"
+					}
+				],
+				"chart_config": {
+					"types": [
+					],
+					"color": [
+						"#FFE677"
+					],
+					"unit": null,
+					"map_filter": ["number"]
+				},
+				"name": "111肇事熱點",
+				"source": "交通部路政及道安司",
+				"time_from": null,
+				"time_to": null,
+				"update_freq": null,
+				"update_freq_unit": null,
+				"tags": [],
+				"contributors": ["tuic"]
+			},
+			
+		"407": {
+			"id": 407,
+			"index": "407",
+			"map_config": [
+				{
+					"index": "407",
+					"paint": {
+						"circle-color": "#C0E6ED"
+					},
+					"property": [
+						{
+							"key": "Point",
+							"name": " "
+						}
+					],
+					"type": "circle",
+					"title": "110車禍地點"
+				}
+			],
+			"chart_config": {
+				"types": [
+				],
+				"color": [
+					"#FFE677"
+				],
+				"unit": null,
+				"map_filter": ["number"]
+			},
+			"name": "110車禍地點",
+			"source": "交通部路政及道安司",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"408": {
+			"id": 408,
+			"index": "408",
+			"map_config": [
+				{
+					"index": "408",
+					"paint": {
+						"circle-color": "#C0E6ED"
+					},
+					"property": [
+						{
+							"key": "Point",
+							"name": "地點"
+						}
+					],
+					"type": "circle",
+					"title": "111車禍地點"
+				}
+			],
+			"chart_config": {
+				"types": [
+				],
+				"color": [
+					"#FFE677"
+				],
+				"unit": null,
+				"map_filter": ["number"]
+			},
+			"name": "111車禍地點",
+			"source": "交通局",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"302": {
+			"id": 302,
+			"index": "testing",
+			"map_config": null,
+			"chart_config": {
+				"color": ["lightskyblue"],
+				"types": ["BasicChart"],
+				"unit": "件"
+
+				
+			},
+			
+			"name": "110年肇事原因",
+			"source": "警察局",
+			"history_data_color": ["#C8D3D5", "#A4B8C4", "#6E8387"],
+			"time_from": "2021-01-01",
+			"time_to": "2021-12-31" ,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示桃園市110年五大肇事原因的統計資訊",
+			"long_desc": "顯示桃園市110年五大肇事原因的統計資訊，資料來源為交通部資料。",
+			"use_case": "瞭解桃園市110年五大肇事原因的統計資訊，讓大家看得出110年五種肇事星期一至星期日不同肇事原因的比較。",
+			"links": ["https://roadsafety.tw/AccAgeI26CauseOrder?type=%E8%82%87%E5%9B%A0%E5%88%86%E6%9E%90"],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"303": {
+			"id": 303,
+			"index": "testing",
+			"map_config": null,
+			"chart_config": {
+				"color": ["lightskyblue"],
+				"types": ["BasicChart"],
+				"unit": "件"
+
+				
+			},
+			
+			"name": "111年肇事原因",
+			"source": "警察局",
+			"history_data_color": ["#C8D3D5", "#A4B8C4", "#6E8387"],
+			"time_from": "2022-01-01",
+			"time_to": "2022-12-31" ,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示桃園市111年五大肇事原因的統計資訊",
+			"long_desc": "顯示桃園市111年五大肇事原因的統計資訊，資料來源為交通部資料。",
+			"use_case": "瞭解桃園市111年五大肇事原因的統計資訊，讓大家看得出111年五種肇事星期一至星期日不同肇事原因的比較。",
+			"links": ["https://roadsafety.tw/AccAgeI26CauseOrder?type=%E8%82%87%E5%9B%A0%E5%88%86%E6%9E%90"],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"304": {
+			"id": 304,
+			"index": "testing",
+			"history_data": false,
+			"map_config": null,
+			"chart_config": {
+				"color": ["#E06666", "#00A9E0"],
+				"types": ["ColumnLineChart", "TimelineSeparateChart"],
+				"unit": "件"
+			},
+			"name": "110",
+			"source": "警察局",
+			"time_from": "2023-01-01T23:59:59+08:00",
+			"time_to": "2023-05-01T23:59:59+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "month",
+			"short_desc": "顯示近兩年每月的刑案統計資訊",
+			"long_desc": "顯示近兩年每月的刑案統計資訊，資料來源為台北市主計處開放資料，每月更新。",
+			"use_case": "藉由掌握台北市刑事案件近2年的統計資訊，我們可以瞭解案件的增減趨勢及相關特徵，有助於制定更有效的治安策略。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=dc7e246a-a88e-42f8-8cd6-9739209af774"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"305": {
+			"id": 305,
+			"index": "testing",
+			"history_data": false,
+			"map_config": null,
+			"chart_config": {
+				"color": ["#E06666", "#00A9E0"],
+				"types": ["ColumnLineChart", "TimelineSeparateChart"],
+				"unit": "件"
+			},
+			"name": "110",
+			"source": "警察局",
+			"time_from": "2023-01-01T23:59:59+08:00",
+			"time_to": "2023-05-01T23:59:59+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "month",
+			"short_desc": "顯示近兩年每月的刑案統計資訊",
+			"long_desc": "顯示近兩年每月的刑案統計資訊，資料來源為台北市主計處開放資料，每月更新。",
+			"use_case": "藉由掌握台北市刑事案件近2年的統計資訊，我們可以瞭解案件的增減趨勢及相關特徵，有助於制定更有效的治安策略。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=dc7e246a-a88e-42f8-8cd6-9739209af774"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"306": {
+			"id": 306,
+			"index": "testing",
+			"history_data": false,
+			"map_config": null,
+			"chart_config": {
+				"color": [
+					"#FD5696",
+					"#00A9E0"
+				],
+				"types": [
+					"TimelineBasicChart"
+				],
+				"unit": "件"
+			},
+			"name": "績效",
+			"source": "警察局",
+			"time_from": "2012-01-01T23:59:59+08:00",
+			"time_to": "2022-12-31T23:59:59+08:00",
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示近兩年每月的刑案統計資訊",
+			"long_desc": "顯示近兩年每月的刑案統計資訊，資料來源為台北市主計處開放資料，每月更新。",
+			"use_case": "藉由掌握台北市刑事案件近2年的統計資訊，我們可以瞭解案件的增減趨勢及相關特徵，有助於制定更有效的治安策略。",
+			"links": [
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
+		}		
 	}
 }

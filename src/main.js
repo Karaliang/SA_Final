@@ -35,6 +35,10 @@ import MapLegend from "./components/charts/MapLegend.vue";
 import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
 import TaoyuanChart from "./components/charts/TaoyuanChart.vue";
+import ColumnLineChart from "./components/charts/ColumnLineChart.vue";
+import BasicChart from "./components/charts/BasicChart.vue";
+import TimelineBasicChart from "./components/charts/TimelineBasicChart.vue";
+
 
 const app = createApp(App);
 
@@ -58,6 +62,8 @@ app.component("MapLegend", MapLegend);
 app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
 app.component("TaoyuanChart", TaoyuanChart);
-
+app.component("ColumnLineChart", ColumnLineChart);
+app.component("BasicChart", BasicChart);
+app.component("TimelineBasicChart", TimelineBasicChart);
 app.mount("#app");
 
