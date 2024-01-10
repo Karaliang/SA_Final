@@ -6411,9 +6411,12 @@
 			"chart_config": {
 				"color": ["lightskyblue"],
 				"types": ["BasicChart"],
+				"unit": "點",
+				"categories": ["降雨78mm", "降雨100mm", "降雨130mm"]
 
-				"unit": "%"
+				
 			},
+			
 			"name": "死亡率",
 			"source": "衛生局",
 			"history_data": true,

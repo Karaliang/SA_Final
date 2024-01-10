@@ -28,14 +28,17 @@ const chartOptions = ref({
           colors: ['transparent']
         },
 		tooltip: {
-          y: {
-            formatter: function (val) {
-              return "$ " + val + " thousands"
-            },
-          },
-        },
+		custom: function ({ series, seriesIndex, dataPointIndex, w }) {
+			// The class "chart-tooltip" could be edited in /assets/styles/chartStyles.css
+			return '<div class="chart-tooltip">' +
+				'<h6>' +  `  ${w.globals.seriesNames[seriesIndex]}` + '</h6>' +
+				'<span>' + series[seriesIndex][dataPointIndex] + ` ${props.chart_config.unit}` + '</span>' +
+				'</div>';
+			},
+		},
+
 		xaxis: {
-          categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+          categories: ['一', '二', '三', '四', '五', '六', '日'],
         },
 		yaxis: {
           title: {
