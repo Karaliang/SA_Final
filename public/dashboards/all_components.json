@@ -5074,7 +5074,7 @@
 					]
 				]
 			},
-			"name": "桃",
+			"name": "111區域發生車禍數量",
 			"source": "衛生局",
 			"time_from": null,
 			"time_to": null,
@@ -5940,6 +5940,79 @@
 			"contributors": [
 				"tuic"
 			]
+		},		
+		"301": {
+			"id": 301,
+			"index": "110區域發生車禍數量",
+			"map_config": [
+				{
+					"index": "heal_aed",
+					"paint": {
+						"circle-color": "#A25FAD"
+					},
+					"property": [
+						{
+							"key": "name",
+							"name": "地點"
+						},
+						{
+							"key": "dist",
+							"name": "行政區"
+						},
+						{
+							"key": "addr",
+							"name": "地址"
+						}
+					],
+					"type": "circle",
+					"title": "AED分布"
+				}
+			],
+			"chart_config": {
+				"types": [
+					"TaoyuanChart",
+					"ColumnChart"
+				],
+				"color": [
+					"#FFE677"
+				],
+				"unit": "台",
+				"map_filter": [
+					"dist",
+					[
+						"中壢區",
+						"桃園區",
+						"龜山區",
+						"八德區",
+						"平鎮區",
+						"蘆竹區",
+						"楊梅區",
+						"龍潭區",
+						"大溪區",
+						"大園區",
+						"觀音區",
+						"新屋區",
+						"復興區"
+					]
+				]
+			},
+			"name": "110區域發生車禍數量",
+			"source": "衛生局",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示當前AED設置地點",
+			"long_desc": "顯示當前AED設置地點，資料來源為台北市衛生局公開資料，每月更新。",
+			"use_case": "透過台北市衛生局公開資料，我們能了解當前AED設置地點分布情況，提供在緊急時尋找AED進行急救的便利。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=cd050577-115f-4299-b37a-012ff490a632"
+			],
+			"tags": [],
+			"contributors": [
+				"tuic"
+			]
 		}
+		
 	}
 }

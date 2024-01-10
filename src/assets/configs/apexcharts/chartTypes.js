@@ -13,5 +13,6 @@ export const chartTypes = {
 	HeatmapChart: "熱力圖", // [V] V
 	PolarChart: "極座標圖", // []
 	WordcloudChart: "文字雲", // []
-	TaoyuanChart: "桃園圖"
+	TaoyuanChart: "桃園圖",
+	ColumnwithRotatedLabels:"旋轉長條圖"
 };
