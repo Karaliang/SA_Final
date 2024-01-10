@@ -14,5 +14,6 @@ export const chartTypes = {
 	PolarChart: "極座標圖", // []
 	WordcloudChart: "文字雲", // []
 	TaoyuanChart: "桃園圖",
-	BasicChart:"基礎長條圖"
+	BasicChart: "基礎長條圖",
+	TimelineBasicChart: "基礎時間圖"
 };
