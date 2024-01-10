@@ -6411,8 +6411,7 @@
 			"chart_config": {
 				"color": ["lightskyblue"],
 				"types": ["BasicChart"],
-				"unit": "點",
-				"categories": ["降雨78mm", "降雨100mm", "降雨130mm"]
+				"unit": "件"
 
 				
 			},
