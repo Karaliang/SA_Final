@@ -5333,12 +5333,12 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"name": "110年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"name": "110年事故車種",
+			"short_desc": "顯示110年的交通事故車種統計",
+			"long_desc": "顯示110年的交通事故統計，資料來源為桃園市交通局內部資料。",
+			"use_case": "透過交通事故的統計資料與圓餅圖的呈現，我們能更直觀地了解桃園市110年的交通事故情況，並尋找可能的高風險地區。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
+				"https://data.tycg.gov.tw/opendata/datalist/datasetMeta?oid=0428e549-d3a8-4775-a733-2cc09def60b0",
 				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
 			],
 			"tags": [],
@@ -5418,13 +5418,13 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"name": "111年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"name": "111年事故車種",
+			"short_desc": "顯示111年的交通事故車種統計",
+			"long_desc": "顯示111年的交通事故統計，資料來源為桃園市交通局內部資料。",
+			"use_case": "透過交通事故的統計資料與圓餅圖的呈現，我們能更直觀地了解桃園市111年的交通事故情況，並尋找可能的高風險地區。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
-				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
+				"https://data.tycg.gov.tw/opendata/datalist/datasetMeta?oid=0428e549-d3a8-4775-a733-2cc09def60b0",
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
 			],
 			"tags": [],
 			"contributors": [
@@ -5503,13 +5503,13 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"name": "110年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"name": "110年駕駛狀況分析",
+			"short_desc": "顯示110年的交通事故統計",
+			"long_desc": "顯示111年的駕駛狀況交通事故統計，資料來源為桃園市交通局內部資料。",
+			"use_case": "透過交通事故的統計資料與圓餅圖的呈現，我們能更直觀地了解桃園市111年的的交通事故情況，並尋找可能的高風險地區。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
-				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
+				"https://data.tycg.gov.tw/opendata/datalist/datasetMeta?oid=0428e549-d3a8-4775-a733-2cc09def60b0",
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
 			],
 			"tags": [],
 			"contributors": [
@@ -5588,13 +5588,13 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"name": "111年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"name": "111年駕駛狀況分析",
+			"short_desc": "顯示111年的駕駛狀況交通事故統計",
+			"long_desc": "顯示111年的駕駛狀況交通事故統計，資料來源為桃園市交通局內部資料。",
+			"use_case": "透過交通事故的統計資料與圓餅圖的呈現，我們能更直觀地了解桃園市111年的的交通事故情況，並尋找可能的高風險地區。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
-				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
+				"https://data.tycg.gov.tw/opendata/datalist/datasetMeta?oid=0428e549-d3a8-4775-a733-2cc09def60b0",
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
 			],
 			"tags": [],
 			"contributors": [
@@ -5673,13 +5673,13 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"name": "110年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"name": "110年交通事故男女比",
+			"short_desc": "顯示110年的交通事故統計男女比例圖",
+			"long_desc": "顯示110年的交通事故統計男女比例圖，資料來源為桃園市交通局內部資料。",
+			"use_case": "透過交通事故的統計資料的呈現，我們能更直觀地了解桃園市111年的交通事故情況。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
-				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD",
+				"https://data.tycg.gov.tw/opendata/datalist/datasetMeta?oid=4c8462b1-e9e4-4def-9d3e-634c13586c1e"
 			],
 			"tags": [],
 			"contributors": [
@@ -5758,13 +5758,13 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"name": "111年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"name": "111年交通事故男女比",
+			"short_desc": "顯示111年的交通事故統計男女比例圖",
+			"long_desc": "顯示111年的交通事故統計男女比例圖，資料來源為桃園市交通局內部資料。",
+			"use_case": "透過交通事故的統計資料的呈現，我們能更直觀地了解桃園市111年的交通事故情況。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
-				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
+				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD",
+				"https://data.tycg.gov.tw/opendata/datalist/datasetMeta?oid=4c8462b1-e9e4-4def-9d3e-634c13586c1e"
 			],
 			"tags": [],
 			"contributors": [
@@ -5843,13 +5843,12 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"name": "110年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"name": "110年A1A2事故統計",
+			"short_desc": "顯示110年A1A2交通事故統計",
+			"long_desc": "顯示110年的交通事故統計，資料來源為桃園市交通局內部資料",
+			"use_case": "透過交通事故的統計資料的呈現，我們能更直觀地了解桃園市111年的交通事故情況，並尋找可能的高風險地區。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
-				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
+				"https://data.tycg.gov.tw/opendata/datalist/datasetMeta?oid=4c8462b1-e9e4-4def-9d3e-634c13586c1e"
 			],
 			"tags": [],
 			"contributors": [
@@ -5928,13 +5927,12 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"name": "111年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"name": "111年A1A2事故統計",
+			"short_desc": "顯示111年A1A2交通事故統計",
+			"long_desc": "顯示111年的交通事故統計，資料來源為桃園市交通局內部資料。",
+			"use_case": "透過交通事故的統計資料的呈現，我們能更直觀地了解桃園市111年的交通事故情況，並尋找可能的高風險地區。",
 			"links": [
-				"https://data.taipei/dataset/detail?id=0554bac7-cbc2-4ef3-a55e-0aad3dd4ee1d",
-				"https://data.taipei/dataset/detail?id=2f238b4f-1b27-4085-93e9-d684ef0e2735"
+				"https://data.tycg.gov.tw/opendata/datalist/datasetMeta?oid=4c8462b1-e9e4-4def-9d3e-634c13586c1e"
 			],
 			"tags": [],
 			"contributors": [
