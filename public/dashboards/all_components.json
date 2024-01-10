@@ -6012,7 +6012,397 @@
 			"contributors": [
 				"tuic"
 			]
-		}
+		},
+		"400": {
+			"id": 400,
+			"index": "400",
+			"map_config": [
+				{
+				  "index": "400",
+				  "paint":{
+					"line-color": "#009688"
+				},
+				  "property": [
+					{
+					  "key": "RoadName",
+					  "name": "路名"
+					},
+					{
+					  "key": "volume",
+					  "name": "車流量"
+					}
+				  ],
+				  "type": "line",
+				  "icon": "dash",
+				  "title": "街道"
+				}
+			  ],
+			  "name": "30以下車流量路段",
+			  "chart_config": {
+				"types": ["MapLegend"],
+				"map_filter": ["RoadName"]
+			  },
+			 
+			  "time_from": null,
+			  "time_to": null,
+			  "update_freq": null,
+			  "update_freq_unit": null,
+	
+			  "source": "交通局",
+			  "contributors": ["tuic"]
+			},
+			"401": {
+				"id": 401,
+				"index": "3060",
+				"map_config": [
+					{
+					  "index": "3060",
+					  "paint":{
+						"line-color": "#E2FA0F"
+					},
+					  "property": [
+						{
+						  "key": "RoadName",
+						  "name": "路名"
+						},
+						{
+						  "key": "volume",
+						  "name": "車流量"
+						}
+					  ],
+					  "type": "line",
+					  "icon": "dash",
+					  "title": "街道"
+					}
+				  ],
+				  "name": "30至60車流量路段",
+				  "chart_config": {
+					"types": ["MapLegend"],
+					"map_filter": ["RoadName"]
+				  },
+				 
+				  "time_from": null,
+				  "time_to": null,
+				  "update_freq": null,
+				  "update_freq_unit": null,
 		
+				  "source": "交通局",
+				  "contributors": ["tuic"]
+				},
+
+			"402": {
+				"id": 402,
+				"index": "60",
+				"map_config": [
+					{
+					  "index": "60",
+					  "paint":{
+						"line-color": "#FA0F0F"
+					},
+					  "property": [
+						{
+						  "key": "RoadName",
+						  "name": "路名"
+						},
+						{
+						  "key": "volume",
+						  "name": "車流量"
+						}
+					  ],
+					  "type": "line",
+					  "icon": "dash",
+					  "title": "街道"
+					}
+				  ],
+				  "name": "60以上車流量路段",
+				  "chart_config": {
+					"types": ["MapLegend"],
+					"map_filter": ["RoadName"]
+				  },
+				 
+				  "time_from": null,
+				  "time_to": null,
+				  "update_freq": null,
+				  "update_freq_unit": null,
+		
+				  "source": "交通局",
+				  "contributors": ["tuic"]
+				},
+			"403": {
+				"id": 403,
+				"index": "SpeedCamera",
+				"map_config": [
+					{
+						"index": "SpeedCamera",
+						"paint": {
+							"circle-color": "#A800B8"
+						},
+						"property": [
+							{
+								"key": "Bianhao",
+								"name": "編號"
+							},
+							{
+								"key": "address",
+								"name": "地址"
+							},
+							{
+								"key": "camera_direction",
+								"name": "相機方向"
+							}
+						],
+						"type": "circle",
+						"title": "測速照相分布區域"
+					}
+				],
+				"chart_config": {
+					"types": [
+					],
+					"color": [
+						"#FFE677"
+					],
+					"unit": "台",
+					"map_filter": ["camera_direction"]
+				},
+				"name": "測速照相分布區域",
+				"source": "警察局",
+				"time_from": null,
+				"time_to": null,
+				"update_freq": null,
+				"update_freq_unit": null,
+				"tags": [],
+				"contributors": [
+					"tuic"
+				]
+			},
+			"404": {
+				"id": 404,
+				"index": "monitor",
+				"map_config": [
+					{
+						"index": "monitor",
+						"paint": {
+							"circle-color": "#C9D6DE"
+						},
+						"property": [
+							{
+								"key": "camera_type",
+								"name": "建置方式"
+							},
+							{
+								"key": "breau",
+								"name": "管轄分局"
+							},
+							{
+								"key": "address",
+								"name": "建置地址"
+							}
+						],
+						"type": "circle",
+						"title": "路口監視器地點"
+					}
+				],
+				"chart_config": {
+					"types": [
+					],
+					"color": [
+						"#FFE677"
+					],
+					"unit": "台",
+					"map_filter": ["camera_type",["自建","租賃"]]
+				},
+				"name": "監視器分布區域",
+				"source": "警察局",
+				"time_from": null,
+				"time_to": null,
+				"update_freq": null,
+				"update_freq_unit": null,
+				"tags": [],
+				"contributors": [
+					"tuic"
+				]
+			},
+			"405": {
+				"id": 405,
+				"index": "110Hotspots",
+				"map_config": [
+					{
+						"index": "110Hotspots",
+						"paint": {
+							"circle-color": "#B88F9A"
+						},
+						"property": [
+							{
+								"key": "number",
+								"name": "編號"
+							},
+							{
+								"key": "address",
+								"name": "地點"
+							},
+							{
+								"key": "dead",
+								"name": "死亡數量"
+							},
+							{
+								"key": "injuried",
+								"name": "受傷數量"
+							},
+							{
+								"key": "pieces",
+								"name": "件數"
+							}
+						],
+						"type": "circle",
+						"title": "110肇事熱點"
+					}
+				],
+				"chart_config": {
+					"types": [
+					],
+					"color": [
+						"#FFE677"
+					],
+					"unit": null,
+					"map_filter": ["number"]
+				},
+				"name": "110肇事熱點",
+				"source": "交通部路政及道安司",
+				"time_from": null,
+				"time_to": null,
+				"update_freq": null,
+				"update_freq_unit": null,
+				"tags": [],
+				"contributors": ["tuic"]
+			},
+
+			"406": {
+				"id": 406,
+				"index": "111Hotspots",
+				"map_config": [
+					{
+						"index": "111Hotspots",
+						"paint": {
+							"circle-color": "#E6AF23"
+						},
+						"property": [
+							{
+								"key": "number",
+								"name": "編號"
+							},
+							{
+								"key": "address",
+								"name": "地點"
+							},
+							{
+								"key": "dead",
+								"name": "死亡數量"
+							},
+							{
+								"key": "injuried",
+								"name": "受傷數量"
+							},
+							{
+								"key": "pieces",
+								"name": "件數"
+							}
+						],
+						"type": "circle",
+						"title": "111肇事熱點"
+					}
+				],
+				"chart_config": {
+					"types": [
+					],
+					"color": [
+						"#FFE677"
+					],
+					"unit": null,
+					"map_filter": ["number"]
+				},
+				"name": "111肇事熱點",
+				"source": "交通部路政及道安司",
+				"time_from": null,
+				"time_to": null,
+				"update_freq": null,
+				"update_freq_unit": null,
+				"tags": [],
+				"contributors": ["tuic"]
+			},
+			
+		"407": {
+			"id": 407,
+			"index": "407",
+			"map_config": [
+				{
+					"index": "407",
+					"paint": {
+						"circle-color": "#C0E6ED"
+					},
+					"property": [
+						{
+							"key": "Point",
+							"name": " "
+						}
+					],
+					"type": "circle",
+					"title": "110車禍地點"
+				}
+			],
+			"chart_config": {
+				"types": [
+				],
+				"color": [
+					"#FFE677"
+				],
+				"unit": null,
+				"map_filter": ["number"]
+			},
+			"name": "110車禍地點",
+			"source": "交通部路政及道安司",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"408": {
+			"id": 408,
+			"index": "408",
+			"map_config": [
+				{
+					"index": "408",
+					"paint": {
+						"circle-color": "#C0E6ED"
+					},
+					"property": [
+						{
+							"key": "Point",
+							"name": "地點"
+						}
+					],
+					"type": "circle",
+					"title": "111車禍地點"
+				}
+			],
+			"chart_config": {
+				"types": [
+				],
+				"color": [
+					"#FFE677"
+				],
+				"unit": null,
+				"map_filter": ["number"]
+			},
+			"name": "111車禍地點",
+			"source": "交通局",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"tags": [],
+			"contributors": ["tuic"]
+		}	
 	}
 }
