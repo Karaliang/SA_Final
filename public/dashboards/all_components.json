@@ -5021,7 +5021,7 @@
 		},
 		"300": {
 			"id": 300,
-			"index": "111區域發生車禍數量",
+			"index": "testing",
 		
 			"chart_config": {
 				"types": [
@@ -5058,8 +5058,8 @@
 			"update_freq": null,
 			"update_freq_unit": null,
 			"short_desc": "顯示111區域發生車禍數量",
-			"long_desc": "顯示111區域發生車禍數量，資料來源為台北市衛生局公開資料，每月更新。",
-			"use_case": "透過台北市衛生局公開資料，我們能了解當前AED設置地點分布情況，提供在緊急時尋找AED進行急救的便利。",
+			"long_desc": "顯示111區域發生車禍數量，資料來源為道安資訊查詢網公開資料。",
+			"use_case": "透過道安資訊查詢網公開資料，我們能了解111區域發生車禍數量情況，知道每個區域發生車禍數量，加強交通管制。",
 			"links": [
 				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
 			],
@@ -5070,7 +5070,7 @@
 		},
 		"320": {
 			"id": 320,
-			"index": "traffic_accident",
+			"index": "testing",
 
 			"chart_config": {
 				"color": [
@@ -5094,14 +5094,14 @@
 				]
 			},
 			"source": "警察局",
-			"time_from": "2021-12-31T14:01:00Z",
-			"time_to": null,
+			"time_from": "2021-01-01",
+			"time_to": "2021-12-31" ,
 			"update_freq": null,
 			"update_freq_unit": null,
 			"name": "110年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"short_desc": "顯示110的交通事是否肇事逃逸的統計圓餅圖",
+			"long_desc": "顯示110的交通事是否肇事逃逸的統計圓餅圖，資料來源為道安資訊查詢網，每日更新。",
+			"use_case": "透過110的交通事是否肇事逃逸的統計圓餅圖的呈現，了解肇事逃逸的人數。",
 			"links": [
 				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
 
@@ -5113,7 +5113,7 @@
 		},
 		"321": {
 			"id": 321,
-			"index": "traffic_accident",
+			"index": "testing",
 			
 			"chart_config": {
 				"color": [
@@ -5135,14 +5135,14 @@
 				]
 			},
 			"source": "警察局",
-			"time_from": "2022-21-31T14:01:00Z",
-			"time_to": null,
+			"time_from": "2022-01-01",
+			"time_to": "2022-12-31" ,
 			"update_freq": null,
 			"update_freq_unit": null,
 			"name": "111年肇事逃逸",
-			"short_desc": "顯示三至四個月前的交通事故統計及熱力圖",
-			"long_desc": "顯示三至四個月前的交通事故統計及熱力圖，資料來源為台北市交通局內部資料，每月更新。",
-			"use_case": "透過交通事故的統計資料與熱力圖的呈現，我們能更直觀地了解台北市3~4個月前的交通事故情況，並尋找可能的高風險地區。",
+			"short_desc": "顯示111的交通事是否肇事逃逸的統計圓餅圖",
+			"long_desc": "顯示111的交通事是否肇事逃逸的統計圓餅圖，資料來源為道安資訊查詢網，每日更新。",
+			"use_case": "透過111的交通事是否肇事逃逸的統計圓餅圖的呈現，了解肇事逃逸的人數。",
 			"links": [
 				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
 			],
@@ -5153,7 +5153,7 @@
 		},
 		"322": {
 			"id": 322,
-			"index": "traffic_accident",
+			"index": "testing",
 
 			"chart_config": {
 				"color": [
@@ -5195,7 +5195,7 @@
 		},
 		"323": {
 			"id": 323,
-			"index": "traffic_accident",
+			"index": "testing",
 
 			"chart_config": {
 				"color": [
@@ -5237,7 +5237,7 @@
 		},
 		"324": {
 			"id": 324,
-			"index": "traffic_accident",
+			"index": "testing",
 
 			"chart_config": {
 				"color": [
@@ -5279,7 +5279,7 @@
 		},
 		"325": {
 			"id": 325,
-			"index": "traffic_accident",
+			"index": "testing",
 
 			"chart_config": {
 				"color": [
@@ -5321,7 +5321,7 @@
 		},
 		"326": {
 			"id": 326,
-			"index": "traffic_accident",
+			"index": "testing",
 
 			"chart_config": {
 				"color": [
@@ -5363,7 +5363,7 @@
 		},
 		"327": {
 			"id": 327,
-			"index": "traffic_accident",
+			"index": "testing",
 
 			"chart_config": {
 				"color": [
@@ -5405,7 +5405,7 @@
 		},
 		"328": {
 			"id": 328,
-			"index": "traffic_accident",
+			"index": "testing",
 
 			"chart_config": {
 				"color": [
@@ -5447,7 +5447,7 @@
 		},
 		"329": {
 			"id": 329,
-			"index": "traffic_accident",
+			"index": "testing",
 
 			"chart_config": {
 				"color": [
@@ -5489,7 +5489,7 @@
 		},		
 		"301": {
 			"id": 301,
-			"index": "110區域發生車禍數量",
+			"index": "testing",
 			
 			"chart_config": {
 				"types": [
@@ -5525,9 +5525,9 @@
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示當前AED設置地點",
-			"long_desc": "顯示當前AED設置地點，資料來源為台北市衛生局公開資料，每月更新。",
-			"use_case": "透過台北市衛生局公開資料，我們能了解當前AED設置地點分布情況，提供在緊急時尋找AED進行急救的便利。",
+			"short_desc": "顯示110區域發生車禍數量",
+			"long_desc": "顯示110區域發生車禍數量，資料來源為道安資訊查詢網公開資料。",
+			"use_case": "透過道安資訊查詢網公開資料，我們能了解110區域發生車禍數量情況，知道每個區域發生車禍數量，加強交通管制。",
 			"links": [
 				"https://roadsafety.tw/Dashboard/Custom?type=%E7%B5%B1%E8%A8%88%E5%BF%AB%E8%A6%BD"
 			],
@@ -5929,7 +5929,7 @@
 		},
 		"302": {
 			"id": 302,
-			"index": "dead",
+			"index": "testing",
 			"map_config": null,
 			"chart_config": {
 				"color": ["lightskyblue"],
@@ -5942,7 +5942,7 @@
 			"name": "110年肇事原因",
 			"source": "警察局",
 			"history_data_color": ["#C8D3D5", "#A4B8C4", "#6E8387"],
-			"time_from": "2121-01-01",
+			"time_from": "2021-01-01",
 			"time_to": "2021-12-31" ,
 			"update_freq": null,
 			"update_freq_unit": null,
@@ -5955,7 +5955,7 @@
 		},
 		"303": {
 			"id": 303,
-			"index": "dead",
+			"index": "testing",
 			"map_config": null,
 			"chart_config": {
 				"color": ["lightskyblue"],
@@ -5972,16 +5972,16 @@
 			"time_to": "2022-12-31" ,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "顯示桃園市110年五大肇事原因的統計資訊",
-			"long_desc": "顯示桃園市110年五大肇事原因的統計資訊，資料來源為交通部資料。",
-			"use_case": "瞭解桃園市110年五大肇事原因的統計資訊，讓大家看得出110年五種肇事星期一至星期日不同肇事原因的比較。",
+			"short_desc": "顯示桃園市111年五大肇事原因的統計資訊",
+			"long_desc": "顯示桃園市111年五大肇事原因的統計資訊，資料來源為交通部資料。",
+			"use_case": "瞭解桃園市111年五大肇事原因的統計資訊，讓大家看得出111年五種肇事星期一至星期日不同肇事原因的比較。",
 			"links": ["https://roadsafety.tw/AccAgeI26CauseOrder?type=%E8%82%87%E5%9B%A0%E5%88%86%E6%9E%90"],
 			"tags": [],
 			"contributors": ["tuic"]
 		},
 		"304": {
 			"id": 304,
-			"index": "patrol_criminalcase",
+			"index": "testing",
 			"history_data": false,
 			"map_config": null,
 			"chart_config": {
@@ -6006,7 +6006,7 @@
 		},
 		"305": {
 			"id": 305,
-			"index": "patrol_criminalcase",
+			"index": "testing",
 			"history_data": false,
 			"map_config": null,
 			"chart_config": {
@@ -6031,7 +6031,7 @@
 		},
 		"306": {
 			"id": 306,
-			"index": "patrol_criminalcase",
+			"index": "testing",
 			"history_data": false,
 			"map_config": null,
 			"chart_config": {
