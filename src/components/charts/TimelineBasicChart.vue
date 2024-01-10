@@ -41,7 +41,7 @@ const chartOptions = ref({
 		custom: function ({ series, seriesIndex, dataPointIndex, w }) {
 			// The class "chart-tooltip" could be edited in /assets/styles/chartStyles.css
 			return '<div class="chart-tooltip">' +
-				'<h6>' + `${parseTime(w.config.series[seriesIndex].data[dataPointIndex].x)}` + ` - ${w.globals.seriesNames[seriesIndex]}` + '</h6>' +
+				'<h6>' + `  ${w.globals.seriesNames[seriesIndex]}` + '</h6>' +
 				'<span>' + series[seriesIndex][dataPointIndex] + ` ${props.chart_config.unit}` + '</span>' +
 				'</div>';
 		},
