@@ -10,7 +10,10 @@ const mapStore = useMapStore();
 const chartOptions = ref({
 	chart: {
           type: 'bar',
-          height: 350
+          height: 350,
+		  toolbar: {
+					show: false,
+				},
         },
 		plotOptions: {
           bar: {
@@ -22,6 +25,9 @@ const chartOptions = ref({
 		dataLabels: {
           enabled: false
         },
+		grid: {
+             show: false,
+            },
 		stroke: {
           show: true,
           width: 2,
@@ -42,7 +48,7 @@ const chartOptions = ref({
         },
 		yaxis: {
           title: {
-            text: '$ (thousands)'
+            text: '發生件數'
           },
         },
 		fill: {
@@ -59,7 +65,13 @@ const chartOptions = ref({
 
 <template>
 	<div v-if="activeChart === 'BasicChart'">
-		<apexchart type="bar" height="350" :options="chartOptions" :series="series"
-			@dataPointSelection="handleDataSelection"></apexchart>
+		<apexchart
+			width="100%"
+			height="270px"
+			type="bar"
+			:options="chartOptions"
+			:series="series"
+			@dataPointSelection="handleDataSelection"
+		></apexchart>
 	</div>
 </template>

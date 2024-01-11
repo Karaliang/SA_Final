@@ -15,5 +15,6 @@ export const chartTypes = {
 	WordcloudChart: "文字雲", // []
 	TaoyuanChart: "桃園圖",
 	BasicChart: "基礎長條圖",
-	TimelineBasicChart: "基礎時間圖"
+	TimelineBasicChart: "基礎時間圖",
+	ColumnwithRotatedLabels:"旋轉長條圖"
 };

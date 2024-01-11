@@ -38,6 +38,9 @@ import TaoyuanChart from "./components/charts/TaoyuanChart.vue";
 import ColumnLineChart from "./components/charts/ColumnLineChart.vue";
 import BasicChart from "./components/charts/BasicChart.vue";
 import TimelineBasicChart from "./components/charts/TimelineBasicChart.vue";
+import ColumnwithRotatedLabels from "./components/charts/ColumnwithRotatedLabels.vue";
+
+
 
 
 const app = createApp(App);
@@ -65,5 +68,8 @@ app.component("TaoyuanChart", TaoyuanChart);
 app.component("ColumnLineChart", ColumnLineChart);
 app.component("BasicChart", BasicChart);
 app.component("TimelineBasicChart", TimelineBasicChart);
+app.component("ColumnwithRotatedLabels", ColumnwithRotatedLabels);
+
+
 app.mount("#app");
 
