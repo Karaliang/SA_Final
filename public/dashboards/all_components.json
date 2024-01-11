@@ -5796,7 +5796,6 @@
 				"tags": [],
 				"contributors": ["tuic"]
 			},
-
 			"406": {
 				"id": 406,
 				"index": "111Hotspots",
@@ -5850,81 +5849,6 @@
 				"tags": [],
 				"contributors": ["tuic"]
 			},
-			
-		"407": {
-			"id": 407,
-			"index": "407",
-			"map_config": [
-				{
-					"index": "407",
-					"paint": {
-						"circle-color": "#C0E6ED"
-					},
-					"property": [
-						{
-							"key": "Point",
-							"name": " "
-						}
-					],
-					"type": "circle",
-					"title": "110車禍地點"
-				}
-			],
-			"chart_config": {
-				"types": [
-				],
-				"color": [
-					"#FFE677"
-				],
-				"unit": null,
-				"map_filter": ["number"]
-			},
-			"name": "110車禍地點",
-			"source": "交通部路政及道安司",
-			"time_from": null,
-			"time_to": null,
-			"update_freq": null,
-			"update_freq_unit": null,
-			"tags": [],
-			"contributors": ["tuic"]
-		},
-		"408": {
-			"id": 408,
-			"index": "408",
-			"map_config": [
-				{
-					"index": "408",
-					"paint": {
-						"circle-color": "#C0E6ED"
-					},
-					"property": [
-						{
-							"key": "Point",
-							"name": "地點"
-						}
-					],
-					"type": "circle",
-					"title": "111車禍地點"
-				}
-			],
-			"chart_config": {
-				"types": [
-				],
-				"color": [
-					"#FFE677"
-				],
-				"unit": null,
-				"map_filter": ["number"]
-			},
-			"name": "111車禍地點",
-			"source": "交通局",
-			"time_from": null,
-			"time_to": null,
-			"update_freq": null,
-			"update_freq_unit": null,
-			"tags": [],
-			"contributors": ["tuic"]
-		},
 		"302": {
 			"id": 302,
 			"index": "testing",
