@@ -5543,6 +5543,7 @@
 				  "paint":{
 					"line-color": "#009688"
 				},
+
 				  "property": [
 					{
 					  "key": "RoadName",
@@ -5558,6 +5559,13 @@
 				  "title": "街道"
 				}
 			  ],
+			  "chart_data": [
+				{
+					"type": "fill",
+					"color": "#009688",
+					"name": "30以下車流量路段"
+				}
+			],
 			  "name": "30以下車流量路段",
 			  "chart_config": {
 				"types": ["MapLegend"],
@@ -5596,6 +5604,13 @@
 					  "title": "街道"
 					}
 				  ],
+				  "chart_data": [
+					{
+						"type": "fill",
+						"color": "#E2FA0F",
+						"name": "30至60車流量路段"
+					}
+				],
 				  "name": "30至60車流量路段",
 				  "chart_config": {
 					"types": ["MapLegend"],
@@ -5635,6 +5650,13 @@
 					  "title": "街道"
 					}
 				  ],
+				  "chart_data": [
+					{
+						"type": "fill",
+						"color": "#FA0F0F",
+						"name": "60以上車流量路段"
+					}
+				],
 				  "name": "60以上車流量路段",
 				  "chart_config": {
 					"types": ["MapLegend"],
@@ -5658,6 +5680,7 @@
 						"paint": {
 							"circle-color": "#A800B8"
 						},
+
 						"property": [
 							{
 								"key": "Bianhao",
@@ -5676,6 +5699,7 @@
 						"title": "測速照相分布區域"
 					}
 				],
+
 				"chart_config": {
 					"types": [
 					],
@@ -5685,6 +5709,14 @@
 					"unit": "台",
 					"map_filter": ["camera_direction"]
 				},
+				"chart_data": [
+					{
+						"type": "fill",
+						"color": "#A800B8",
+						"name": "測速照相分布區域"
+					}
+				],
+
 				"name": "測速照相分布區域",
 				"source": "警察局",
 				"time_from": null,
@@ -5732,6 +5764,13 @@
 					"unit": "台",
 					"map_filter": ["camera_type",["自建","租賃"]]
 				},
+				"chart_data": [
+					{
+						"type": "fill",
+						"color": "#C9D6DE",
+						"name": "監視器分布區域"
+					}
+				],
 				"name": "監視器分布區域",
 				"source": "警察局",
 				"time_from": null,
@@ -5743,6 +5782,7 @@
 					"tuic"
 				]
 			},
+
 			"405": {
 				"id": 405,
 				"index": "110Hotspots",
@@ -5787,6 +5827,13 @@
 					"unit": null,
 					"map_filter": ["number"]
 				},
+				"chart_data": [
+					{
+						"type": "fill",
+						"color": "#B88F9A",
+						"name": "110肇事熱點"
+					}
+				],
 				"name": "110肇事熱點",
 				"source": "交通部路政及道安司",
 				"time_from": null,
@@ -5796,6 +5843,7 @@
 				"tags": [],
 				"contributors": ["tuic"]
 			},
+
 			"406": {
 				"id": 406,
 				"index": "111Hotspots",
@@ -5840,6 +5888,13 @@
 					"unit": null,
 					"map_filter": ["number"]
 				},
+				"chart_data": [
+					{
+						"type": "fill",
+						"color": "#E6AF23",
+						"name": "111肇事熱點"
+					}
+				],
 				"name": "111肇事熱點",
 				"source": "交通部路政及道安司",
 				"time_from": null,
@@ -5849,6 +5904,95 @@
 				"tags": [],
 				"contributors": ["tuic"]
 			},
+			
+		"407": {
+			"id": 407,
+			"index": "407",
+			"map_config": [
+				{
+					"index": "407",
+					"paint": {
+						"circle-color": "#C0E6ED"
+					},
+					"property": [
+						{
+							"key": "Point",
+							"name": " "
+						}
+					],
+					"type": "circle",
+					"title": "110車禍地點"
+				}
+			],
+			"chart_config": {
+				"types": [
+				],
+				"color": [
+					"#FFE677"
+				],
+				"unit": null,
+				"map_filter": ["number"]
+			},
+			"chart_data": [
+				{
+					"type": "fill",
+					"color": "#C0E6ED",
+					"name": "交通部路政及道安司"
+				}
+			],
+			"name": "110車禍地點",
+			"source": "交通部路政及道安司",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"408": {
+			"id": 408,
+			"index": "408",
+			"map_config": [
+				{
+					"index": "408",
+					"paint": {
+						"circle-color": "#C0E6ED"
+					},
+					"property": [
+						{
+							"key": "Point",
+							"name": "地點"
+						}
+					],
+					"type": "circle",
+					"title": "111車禍地點"
+				}
+			],
+			"chart_config": {
+				"types": [
+				],
+				"color": [
+					"#FFE677"
+				],
+				"unit": null,
+				"map_filter": ["number"]
+			},
+			"chart_data": [
+				{
+					"type": "fill",
+					"color": "#C0E6ED",
+					"name": "111車禍地點"
+				}
+			],
+			"name": "111車禍地點",
+			"source": "交通局",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"tags": [],
+			"contributors": ["tuic"]
+		},
 		"302": {
 			"id": 302,
 			"index": "testing",
